@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>himachal tourism</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Josefin Sans", sans-serif;
+      }
+
+      header {
+        width: 100vw;
+        height: 100vh;
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.15)
+          ),
+          url(/mountains-g44e10df9d_1920.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        animation: animate 60s ease infinite;
+      }
+
+      @keyframes animate {
+        0% {
+          background-image: url("./mountains-g44e10df9d_1920.jpg");
+        }
+        9.09% {
+          background-image: url("./bhrigu-lake-gb3d7a59d3_1920.jpg");
+        }
+        18.18% {
+          background-image: url("./drone-view-g3a8a991fc_1920.jpg");
+        }
+        27.27% {
+          background-image: url("./hills-g152623b3c_1280.jpg");
+        }
+        36.36% {
+          background-image: url("./himachal-g2334aadc5_1920.jpg");
+        }
+        45.45% {
+          background-image: url("./manali-g64a0ca5f0_1920.jpg");
+        }
+        54.54% {
+          background-image: url("./himalayas-gabe503fa4_1920.jpg");
+        }
+        63.63% {
+          background-image: url("./monk-g3ade0967c_1920.jpg");
+        }
+        72.72% {
+          background-image: url("./mountains-g6e69cc4ce_1920.jpg");
+        }
+        81.81% {
+          background-image: url("./triund-gaa0d6177e_1920.jpg");
+        }
+        90.90% {
+          background-image: url("./manali-g64a0ca5f0_1920.jpg");
+        }
+        100% {
+          background-image: url("./mountains-g44e10df9d_1920.jpg");
+        }
+      }
+
+      nav {
+        width: 100%;
+        height: 15vh;
+        background: rgba(0, 0, 0, 0.2);
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-transform: uppercase;
+      }
+
+      nav .logo {
+        width: 25%;
+        text-align: center;
+      }
+
+      nav .menu {
+        width: 40%;
+        display: flex;
+        justify-content: space-around;
+      }
+
+      nav .menu a {
+        width: 25%;
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+      }
+
+      nav .menu a:first-child {
+        color: #00b894;
+      }
+
+      main {
+        width: 100%;
+        height: 85vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: white;
+      }
+
+      section h3 {
+        font-size: 35px;
+        font-weight: 200;
+        letter-spacing: 3px;
+        text-shadow: 1px 1px 2px black;
+      }
+
+      section h1 {
+        margin: 30px 0 20px 0;
+        font-size: 55px;
+        font-weight: 700;
+        text-shadow: 2px 1px 5px black;
+        text-transform: uppercase;
+      }
+
+      section p {
+        font-size: 25px;
+        word-spacing: 2px;
+        margin-bottom: 50px;
+        text-shadow: 1px 1px 1px black;
+      }
+
+      section a {
+        padding: 12px 30px;
+        border-radius: 4px;
+        outline: none;
+        text-transform: uppercase;
+        font-size: 13px;
+        font-weight: 500;
+        text-decoration: none;
+        letter-spacing: 1px;
+        transition: all 0.5s ease;
+      }
+
+      section .btntwo {
+        background: #00b894;
+        color: white;
+      }
+
+      .btntwo:hover {
+        background: #fff;
+        color: #000;
+      }
+
+      .change_content:after {
+        content: "";
+        animation: changetext 10s infinite linear;
+        color: #00b894;
+      }
+      section .abh {
+        background: #1c1b29;
+        color: white;
+
+        border-radius: 4px;
+        outline: none;
+        padding: 12px 10px;
+        text-transform: uppercase;
+        font-size: 13px;
+        font-weight: 500;
+        text-decoration: none;
+        letter-spacing: 1px;
+      }
+      section .kbh {
+        padding: 12px 30px;
+        border-radius: 4px;
+
+        outline: none;
+        text-transform: uppercase;
+        font-size: 13px;
+        font-weight: 500;
+        text-decoration: none;
+        letter-spacing: 1px;
+      }
+
+      @keyframes changetext {
+        0% {
+          content: "shimla";
+        }
+        10% {
+          content: "dharmshala";
+        }
+        20% {
+          content: "manali";
+        }
+        30% {
+          content: "palampur";
+        }
+        40% {
+          content: "kasol";
+        }
+        50% {
+          content: "spiti valley";
+        }
+
+        60% {
+          content: "bir billing";
+        }
+        70% {
+          content: "kaza";
+        }
+        78% {
+          content: "narkanda";
+        }
+        85% {
+          content: "prashar lake trek";
+        }
+        93% {
+          content: "chamba";
+        }
+        100% {
+          content: "kinnuar";
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <h1 style="font-size: 20px">explore himachal</h1>
+        </div>
+        <div class="menu">
+          <a href="#" style="font-size: ">Home</a>
+          <a href="#">gallery</a>
+          <a href="#" target="_blank">about</a>
+          <a href="#">contact</a>
+        </div>
+      </nav>
+
+      <main>
+        <section>
+          <h3>Welcome To himachal pradesh</h3>
+          <h1>
+            DO COME & VISIT <span class="change_content"> </span>
+            <span style="margin-top: -10px"> </span>
+          </h1>
+          <p>With a rich heritage and myriad attractions</p>
+
+          <!-- <label class="abh" for="">choose your destnation:</label> -->
+          <select class="kbh">
+            <option value="">choose your destnation:</option>
+            <option value="">shimla</option>
+            <option value="">dharamshala</option>
+            <option value="">manali</option>
+            <option value="">palampur</option>
+            <option value="">kasol</option>
+            <option value="">spiti valley</option>
+            <option value="">kaza</option>
+            <option value="">narkanda</option>
+            <option value="">bir billing</option>
+            <option value="">chamba</option>
+            <option value="">kinnuar</option>
+            <option value="">prashar lake trek</option>
+          </select>
+
+          <a href="#" class="btntwo">signup here</a>
+        </section>
+      </main>
+    </header>
+  </body>
+</html>
